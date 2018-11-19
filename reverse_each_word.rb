@@ -8,7 +8,6 @@
 def reverse_each_word (phrase)
 new_array = []
 phrase.split.each do |word|
-end
 new _array << word.reverse
 end
 new_array.join(" ")
